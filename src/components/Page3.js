@@ -19,7 +19,7 @@ function Page3() {
           </div>
 
           
-            <p className="par">Vous participerez à un hackathon de 2 jours du [ ] au [ ] mai 2024 près de <br /> Paris. <br/> Ne manquez pas l'opportunité de remporter jusqu'à <br />40.000 €</p>
+            <p className="par">Vous participerez à un hackathon de 2 jours du 26 au 28 Avril 2024 près de <br /> Paris. <br/> Ne manquez pas l'opportunité de remporter jusqu'à <br />40.000 €</p>
           </div>
           <div className="contain3">
           
