@@ -18,7 +18,8 @@
   /*Titre en haut de la page et centrer et en blanc / */
   font-family: "Lastica", sans-serif;
   position: relative;
-  margin-bottom: 10px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   color: #fff;
   font-size: 25px;
 }

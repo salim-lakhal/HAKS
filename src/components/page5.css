@@ -4,6 +4,7 @@
   justify-content: center; /* Pour centrer verticalement */
   align-items: center; /* Pour centrer horizontalement */
   min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  max-width: 100vh;
 }
 .containe5 {
   display: flex;
@@ -25,7 +26,7 @@
 .image55 {
   margin-bottom: 70px;
   justify-content: center;
-  min-width: 100vh;
+  max-width: 100vh;
 }
 
 @media (min-width: 1325px) {

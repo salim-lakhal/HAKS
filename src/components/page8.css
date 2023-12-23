@@ -10,7 +10,8 @@
 .tete2 {
   /*Titre en haut de la page et centrer et en blanc / */
   font-family: "Lastica", sans-serif;
-  margin-bottom: 80px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   color: #fff;
   text-align: center;
   font-size: 25px;
