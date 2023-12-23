@@ -8,13 +8,13 @@ function Page5() {
         <div className="page5-container">
 
         <div className="containe5">
-        <div className="title5">
-            <h1>Notre equipe</h1>
-        </div>
+            <div className="title5">
+                <h1>Notre equipe</h1>
+            </div>
 
-        <div className="image55" >
-            <img src="imagegroupe.png" width="1050" height="550" />
-        </div>
+            <div className="image85" >
+                <img src="imagegroupe.png" />
+            </div>
         </div>
         </div>
         </div>

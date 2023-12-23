@@ -4,13 +4,13 @@
   justify-content: center; /* Pour centrer verticalement */
   align-items: center; /* Pour centrer horizontalement */
   min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
-  max-width: 100vh;
 }
 .containe5 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
 
 .title5 {
@@ -18,15 +18,18 @@
   font-family: "Lastica", sans-serif;
   color: #fff;
   font-size: 25px;
+  margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
   justify-content: center;
 }
 
-.image55 {
-  margin-bottom: 70px;
+.image85 {
+  display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
   justify-content: center;
-  max-width: 100vh;
+  transform: translateY(-12%);
+  margin-top: 90px;
+  max-width: 90%;
 }
 
 @media (min-width: 1325px) {

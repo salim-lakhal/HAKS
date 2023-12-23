@@ -29,35 +29,24 @@ function Header() {
   return (
     <div>
       {menuVisible ? (
-        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-          <Navbar.Brand href="#home">
-            <img
-              alt=""
-              src={Logo}
-              width="30"
-              height="30"
-              padding="0"
-              margin="50"
-              className="d-inline-block align-top"
-            />
-            HAKS 2024
-          </Navbar.Brand>
-          <Navbar.Toggle
-            aria-controls="responsive-navbar-nav"        >
-            <FontAwesomeIcon icon={isHamburgerOpen ? faTimes : faBars} />
-          </Navbar.Toggle>
-          <Navbar.Collapse id="responsive-navbar-nav" className={isHamburgerOpen ? 'show' : ''}>
-            <Nav className="mr-auto">
-              <NavDropdown  id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#Page4">Profils</NavDropdown.Item>
-                <NavDropdown.Item href="#Page6">Challenge</NavDropdown.Item>
-                <NavDropdown.Item href="#Page7">Intervenants</NavDropdown.Item>
-                <NavDropdown.Item href="#Page8">Informations Pratiques</NavDropdown.Item>
-                <NavDropdown.Item href="#Page11">FAQ</NavDropdown.Item>
-              </NavDropdown>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+         <section className="p-menu1">
+         <nav id="navbar" className="navigation" role="navigation">
+           <input id="toggle1" type="checkbox" />
+           <label className="hamburger1" htmlFor="toggle1">
+             <div className="top"></div>
+             <div className="meat"></div>
+             <div className="bottom"></div>
+           </label>
+         
+           <nav className="menu1">
+             <a className="link1" href="#Page4">Profils</a>
+             <a className="link1" href="#Page6">Challenge</a>
+             <a className="link1" href="#Page7">Intervenants</a>
+             <a className="link1" href="#Page8">Informations Pratiques</a>
+             <a className="link1 kbutton-nav" href="#Page11">FAQ</a>
+           </nav>
+         </nav>
+       </section>
       ) : (
         <div className="button-container">
           <a href="#Page4">
