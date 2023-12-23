@@ -1,0 +1,161 @@
+.page3-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  padding: 0px;
+  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+}
+
+.contain3 {
+  transform: translateY(-30%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+}
+
+.logo32 {
+  transform: translate(-5%, 0%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo31 {
+  transform: translate(-5%, 40%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  transition: transform 0.03s ease-in-out;
+}
+
+.container10 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+}
+
+.titre10 {
+  font-family: "Lastica", sans-serif;
+  color: #fff;
+  font-size: 35px;
+  position: relative;
+  margin-bottom: 160px;
+}
+
+.par {
+  /*Paragraphe en haut de la page et centrer et en blanc / */
+  font-family: "TT Interphrases", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+  transform: translateY(-150px);
+}
+
+.custom-bouton {
+  /* Bouton en bas de la page et centrer de coleur rose-violet et dont les contours sont arrondi/ */
+  background-color: #ff00ff;
+  color: #fff;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 40px;
+  transform: translateY(80%);
+}
+
+.custom-bouton:hover {
+  background-color: #ff00ff;
+}
+
+.custom-bouton:focus {
+  outline: none;
+}
+
+@media (min-width: 1325px) {
+  .page3-container {
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+    padding: 0px;
+    height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  }
+
+  .titre10 {
+    font-family: "Lastica", sans-serif;
+    color: #fff;
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 250px;
+  }
+
+  .container10 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+  }
+
+  .par {
+    /*Paragraphe en haut de la page et centrer et en blanc / */
+    font-family: "TT Interphrases", sans-serif;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+    transform: translateY(-150px);
+  }
+
+  .custom-bouton {
+    /* Bouton en bas de la page et centrer de coleur rose-violet et dont les contours sont arrondi/ */
+    background-color: #ff00ff;
+    transform: translateX(0%);
+    color: #fff;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+    margin: 0px;
+    font-size: 25px;
+    border-radius: 40px;
+    transform: translateY(-90%);
+  }
+
+  .custom-bouton:hover {
+    background-color: #ff00ff;
+  }
+
+  .custom-bouton:focus {
+    outline: none;
+  }
+  .contain3 {
+    transform: translateY(-30%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+  }
+
+  .logo32 {
+    transform: translate(-70%, -30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo31 {
+    transform: translate(70%, -30%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

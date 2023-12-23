@@ -1,0 +1,72 @@
+/* Ajoutez ces styles à votre fichier CSS */
+
+/* Styles pour masquer les boutons originaux lorsque la largeur est inférieure à 1325px */
+.button-container {
+  display: none;
+}
+
+.navbar-container {
+  display: flex;
+}
+
+@media (min-width: 1325px) {
+  /* Styles pour aligner les boutons en haut de la page */
+  .button-container {
+    display: flex;
+    position: fixed; /*ou absolute à voir*/
+    align-items: center;
+    top: 0;
+    margin-top: 15px;
+    z-index: 999; /* Assurez-vous que le bouton est au premier plan */
+  }
+
+  .custom-button1,
+  .custom-button2,
+  .custom-button3,
+  .custom-button4,
+  .custom-button5 {
+    background-color: #ff00ff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    padding: 20px 60px; /* Remplissage (taille) */
+    border: none; /* Supprimer la bordure */
+    cursor: pointer; /* Curseur de type main (pointeur) */
+    margin-right: 40px;
+    font-size: 20px;
+  }
+
+  /* Pas d'espace entre le sélecteur et les pseudo-classes :hover, :active, :focus */
+  .custom-button1:hover,
+  .custom-button2:hover,
+  .custom-button3:hover,
+  .custom-button4:hover,
+  .custom-button5:hover {
+    /* Couleur de fond au survol */
+    background-color: #ff00aa;
+  }
+
+  .custom-button1:active,
+  .custom-button2:active,
+  .custom-button3:active,
+  .custom-button4:active,
+  .custom-button5:active {
+    background-color: #ae00ff; /* Couleur de fond au clic */
+    transform: translateY(2px); /* Décalage de 4px vers le bas */
+  }
+
+  .custom-button1:focus,
+  .custom-button2:focus,
+  .custom-button3:focus,
+  .custom-button4:focus,
+  .custom-button5:focus {
+    outline: none; /* Supprimer la bordure bleue */
+  }
+
+  /*arrondir les coins du bouton*/
+  .custom-button1,
+  .custom-button2,
+  .custom-button3,
+  .custom-button4,
+  .custom-button5 {
+    border-radius: 40px;
+  }
+}

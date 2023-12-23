@@ -1,0 +1,108 @@
+.page11-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  padding: 0px;
+  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+}
+
+.tete4 {
+  /*Titre en haut de la page et centrer et en blanc / */
+  font-family: "Lastica", sans-serif;
+  color: #fff;
+  font-size: 25px;
+  margin: 0px;
+}
+
+.tete12 {
+  /*Titre en haut de la page et centrer et en blanc / */
+  font-family: "TT Interphrases", sans-serif;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #fff;
+  font-size: 15px;
+}
+
+.paragraph-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  margin-left: 20px;
+}
+
+.paragraphe5 {
+  text-align: left;
+  font-family: "TT Interphrases", sans-serif;
+  color: #fff; /* Changer la couleur du texte si nécessaire */
+  font-size: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.paragraphe4 {
+  text-align: left;
+  font-family: "TT Interphrases", sans-serif;
+  color: #fff; /* Changer la couleur du texte si nécessaire */
+  font-size: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+h4 {
+  font-weight: bold;
+  text-decoration: underline; /* Souligner les titres */
+}
+
+@media (min-width: 1325px) {
+  .page11-container {
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+    padding: 0px;
+    height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  }
+
+  .tete4 {
+    /*Titre en haut de la page et centrer et en blanc / */
+    font-family: "Lastica", sans-serif;
+    color: #fff;
+    font-size: 25px;
+    margin: 0px;
+    transform: translateY(-500%);
+  }
+
+  .tete12 {
+    /*Titre en haut de la page et centrer et en blanc / */
+    font-family: "TT Interphrases", sans-serif;
+    text-align: left;
+    transform: translateY(-190%);
+    color: #fff;
+    font-size: 15px;
+  }
+
+  .paragraph-container {
+    display: flex;
+    flex-direction: row; /* Pour empiler les éléments verticalement */
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+    transform: translateY(100%);
+    margin: -300px 100px 100px 0px;
+  }
+
+  .paragraphe5,
+  .paragraphe4 {
+    text-align: left;
+    font-family: "TT Interphrases", sans-serif;
+    color: #fff; /* Changer la couleur du texte si nécessaire */
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  h4 {
+    font-weight: bold;
+    text-decoration: underline; /* Souligner les titres */
+  }
+}

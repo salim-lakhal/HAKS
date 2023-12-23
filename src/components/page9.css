@@ -1,0 +1,32 @@
+.page9-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  padding: 0px;
+  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+}
+.container99 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  min-height: 100vh;
+}
+
+.tete3 {
+  /*Titre en haut de la page et centrer et en blanc / */
+  font-family: "Lastica", sans-serif;
+  margin-bottom: 150px;
+  color: #fff;
+  text-align: center;
+  font-size: 35px;
+}
+
+.gmap_canvas {
+  display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+  justify-content: center;
+  transform: translateY(-20%);
+  width: 100%;
+  height: 100%;
+}

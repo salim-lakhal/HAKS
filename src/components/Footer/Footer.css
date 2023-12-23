@@ -1,0 +1,43 @@
+/* Footer.css */
+.footer1 {
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  position: relative;
+  bottom: 0;
+  max-width: 100%;
+}
+
+.social-icons {
+  display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+  justify-content: center;
+}
+
+.social-icons a {
+  font-size: 24px; /* Personnalisez la taille des icônes selon vos besoins */
+  color: #fff; /* Personnalisez la couleur des icônes selon vos besoins */
+  margin-left: 15px; /* Ajoutez un espacement entre le texte "Copyright" et les icônes */
+  text-decoration: none;
+}
+@media (min-width: 1325px) {
+  .footer1 {
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+    position: relative;
+    bottom: 0;
+    max-width: 200vh;
+  }
+
+  .social-icons {
+    display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+    justify-content: center;
+  }
+
+  .social-icons a {
+    font-size: 24px; /* Personnalisez la taille des icônes selon vos besoins */
+    color: #fff; /* Personnalisez la couleur des icônes selon vos besoins */
+    margin-left: 15px; /* Ajoutez un espacement entre le texte "Copyright" et les icônes */
+    text-decoration: none;
+  }
+}

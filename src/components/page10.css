@@ -1,0 +1,28 @@
+.page10-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  padding: 0px;
+  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+}
+
+.tet {
+  /*Titre en haut de la page et centrer et en blanc / */
+  font-family: "Lastica", sans-serif;
+  color: #fff;
+  margin-bottom: 150px;
+  text-align: center;
+  font-size: 25px;
+}
+.container5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+}
+.coming {
+  top: -10%; /* Centrer verticalement */
+  position: relative;
+  font-size: 60px;
+}

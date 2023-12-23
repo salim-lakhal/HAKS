@@ -1,0 +1,95 @@
+.page2-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 0px;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  transform: translateX(-50%);
+}
+.container12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+}
+
+/*Caractéristiques du logo*/
+.logo12 {
+  margin-right: 0px;
+  position: relative;
+}
+
+/*Caractéristiques du logo*/
+.logo1 {
+  width: 100px;
+  height: 200px; /* Ajustez la hauteur automatiquement */
+  right: -45%;
+  top: 0%;
+  position: relative;
+}
+
+.textt {
+  font-family: "TT interphrases", sans-serif;
+  color: #fff;
+  text-align: center;
+  justify-content: center;
+  right: -50%;
+  position: relative; /* Positionnement absolu par rapport à la fenêtre */
+}
+
+@media (min-width: 1325px) {
+  .page2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    padding: 0px;
+  }
+
+  .container12 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+  }
+  .logo12 {
+    margin-right: 100px;
+    position: relative;
+  }
+
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+  }
+
+  /*Caractéristiques du logo*/
+  .logo1 {
+    width: 100px;
+    height: 200px; /* Ajustez la hauteur automatiquement */
+    right: -40%;
+    top: 5%;
+    position: relative;
+  }
+
+  .textt {
+    font-family: "TT interphrases", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #fff;
+    top: -50%;
+    right: -50%; /* 20% de la largeur de la fenêtre */
+    position: relative; /* Positionnement absolu par rapport à la fenêtre */
+  }
+}

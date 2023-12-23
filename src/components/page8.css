@@ -1,0 +1,66 @@
+.page8-container {
+  display: flex;
+  flex-direction: column; /* Pour empiler les éléments verticalement */
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  padding: 0px;
+}
+
+.tete2 {
+  /*Titre en haut de la page et centrer et en blanc / */
+  font-family: "Lastica", sans-serif;
+  margin-bottom: 80px;
+  color: #fff;
+  text-align: center;
+  font-size: 25px;
+}
+.container8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Pour centrer verticalement */
+  align-items: center; /* Pour centrer horizontalement */
+  min-height: 100vh;
+}
+.para {
+  font-family: "TT Interphrases", sans-serif;
+  color: #fff;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  margin-left: 25px;
+}
+
+@media (min-width: 1325px) {
+  .page8-container {
+    display: flex;
+    flex-direction: column; /* Pour empiler les éléments verticalement */
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+    padding: 0px;
+    height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  }
+
+  .tete2 {
+    /*Titre en haut de la page et centrer et en blanc / */
+    font-family: "Lastica", sans-serif;
+    transform: translateY(-40%);
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    margin: 0px;
+  }
+  .container8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Pour centrer verticalement */
+    align-items: center; /* Pour centrer horizontalement */
+    min-height: 100vh;
+  }
+  .para {
+    font-family: "TT Interphrases", sans-serif;
+    color: #fff;
+    position: relative;
+    font-size: 20px;
+  }
+}
