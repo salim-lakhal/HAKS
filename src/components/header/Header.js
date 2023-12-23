@@ -1,9 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './header.css';
-import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
-import Logo from './logo.png'; 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
