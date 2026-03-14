@@ -1,9 +1,9 @@
 .page5-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .containe5 {
   display: flex;
@@ -14,7 +14,7 @@
 }
 
 .title5 {
-  /*Titre en haut de la page et centrer et en blanc / */
+
   font-family: "Lastica", sans-serif;
   color: #fff;
   font-size: 25px;
@@ -25,7 +25,7 @@
 }
 
 .image85 {
-  display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+  display: flex;
   justify-content: center;
   transform: translateY(-12%);
   margin-top: 90px;
@@ -35,15 +35,15 @@
 @media (min-width: 1325px) {
   .page5-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    min-height: 100vh;
   }
 
   .title5 {
-    /*Titre en haut de la page et centrer et en blanc / */
+  
     font-family: "Lastica", sans-serif;
     color: #fff;
     text-align: center;

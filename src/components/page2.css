@@ -10,27 +10,27 @@
 .container1 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
   transform: translateX(-50%);
 }
 .container12 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
 }
 
-/*Caractéristiques du logo*/
+
 .logo12 {
   margin-right: 0px;
   position: relative;
 }
 
-/*Caractéristiques du logo*/
+
 .logo1 {
   width: 100px;
-  height: 200px; /* Ajustez la hauteur automatiquement */
+  height: 200px;
   right: -45%;
   top: 0%;
   position: relative;
@@ -42,7 +42,7 @@
   text-align: center;
   justify-content: center;
   right: -50%;
-  position: relative; /* Positionnement absolu par rapport à la fenêtre */
+  position: relative;
 }
 
 @media (min-width: 1325px) {
@@ -59,8 +59,8 @@
   .container12 {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
   }
   .logo12 {
     margin-right: 100px;
@@ -70,14 +70,14 @@
   .container1 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
   }
 
-  /*Caractéristiques du logo*/
+  
   .logo1 {
     width: 100px;
-    height: 200px; /* Ajustez la hauteur automatiquement */
+    height: 200px;
     right: -40%;
     top: 5%;
     position: relative;
@@ -89,7 +89,7 @@
     text-align: left;
     color: #fff;
     top: -50%;
-    right: -50%; /* 20% de la largeur de la fenêtre */
-    position: relative; /* Positionnement absolu par rapport à la fenêtre */
+    right: -50%;
+    position: relative;
   }
 }

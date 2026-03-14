@@ -1,21 +1,21 @@
 .page7-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0px;
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  min-height: 100vh;
 }
 
 .container7 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 .tete7 {
-  /*Titre en haut de la page et centrer et en blanc / */
+
   font-family: "Lastica", sans-serif;
   position: relative;
   margin-top: 10%;
@@ -33,28 +33,28 @@
 }
 
 .coming1 {
-  left: 0%; /* Centrer horizontalement */
+  left: 0%;
 }
 
 @media (min-width: 1325px) {
   .page7-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    min-height: 100vh;
   }
 
   .container7 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
   }
   .tete7 {
-    /*Titre en haut de la page et centrer et en blanc / */
+  
     font-family: "Lastica", sans-serif;
     position: relative;
     margin-bottom: 160px;
@@ -65,13 +65,13 @@
   .pa7 {
     font-family: "Lastica", sans-serif;
     color: #fff;
-    left: -20%; /* Centrer horizontalement */
+    left: -20%;
     transform: translate(-90%, -200%);
     position: relative;
     font-size: 60px;
   }
 
   .coming1 {
-    left: 0%; /* Centrer horizontalement */
+    left: 0%;
   }
 }

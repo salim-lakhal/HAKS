@@ -6,7 +6,7 @@ export const sizes = {
     '2xl': '1536px',
 };
 
-const queries = Object.keys(sizes); // Obtenez les classes de taille à partir des clés de sizes
+const queries = Object.keys(sizes);
 
 function isMatch(media) {
     const query = `(min-width: ${sizes[media]})`;

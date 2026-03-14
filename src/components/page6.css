@@ -1,14 +1,14 @@
 .page6-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 0px;
 }
 
 .tete {
-  /*Titre en haut de la page et centrer et en blanc / */
+
   font-family: "Lastica", sans-serif;
   margin-top: 10%;
   margin-bottom: 110px;
@@ -18,7 +18,7 @@
 }
 
 .par1 {
-  /*Paragraphe en haut de la page et centrer et en blanc / */
+
   font-family: "TT Interphrases", sans-serif;
   color: #fff;
   text-align: center;

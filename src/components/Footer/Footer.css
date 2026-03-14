@@ -9,14 +9,14 @@
 }
 
 .social-icons {
-  display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+  display: flex;
   justify-content: center;
 }
 
 .social-icons a {
-  font-size: 24px; /* Personnalisez la taille des icônes selon vos besoins */
-  color: #fff; /* Personnalisez la couleur des icônes selon vos besoins */
-  margin-left: 15px; /* Ajoutez un espacement entre le texte "Copyright" et les icônes */
+  font-size: 24px;
+  color: #fff;
+  margin-left: 15px;
   text-decoration: none;
 }
 @media (min-width: 1325px) {
@@ -30,14 +30,14 @@
   }
 
   .social-icons {
-    display: flex; /* Utilisez un affichage en ligne pour aligner les icônes horizontalement */
+    display: flex;
     justify-content: center;
   }
 
   .social-icons a {
-    font-size: 24px; /* Personnalisez la taille des icônes selon vos besoins */
-    color: #fff; /* Personnalisez la couleur des icônes selon vos besoins */
-    margin-left: 15px; /* Ajoutez un espacement entre le texte "Copyright" et les icônes */
+    font-size: 24px;
+    color: #fff;
+    margin-left: 15px;
     text-decoration: none;
   }
 }

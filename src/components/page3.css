@@ -1,18 +1,18 @@
 .page3-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0px;
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  min-height: 100vh;
 }
 
 .contain3 {
   transform: translateY(-30%);
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
 }
 
 .logo32 {
@@ -38,8 +38,8 @@
 .container10 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
 }
 
 .titre10 {
@@ -52,7 +52,7 @@
 }
 
 .par {
-  /*Paragraphe en haut de la page et centrer et en blanc / */
+
   font-family: "TT Interphrases", sans-serif;
   color: #fff;
   text-align: center;
@@ -61,7 +61,7 @@
 }
 
 .custom-bouton {
-  /* Bouton en bas de la page et centrer de coleur rose-violet et dont les contours sont arrondi/ */
+
   background-color: #ff00ff;
   color: #fff;
   padding: 20px 30px;
@@ -83,11 +83,11 @@
 @media (min-width: 1325px) {
   .page3-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    height: 100vh;
   }
 
   .titre10 {
@@ -101,12 +101,12 @@
   .container10 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
   }
 
   .par {
-    /*Paragraphe en haut de la page et centrer et en blanc / */
+  
     font-family: "TT Interphrases", sans-serif;
     color: #fff;
     text-align: center;
@@ -116,7 +116,7 @@
   }
 
   .custom-bouton {
-    /* Bouton en bas de la page et centrer de coleur rose-violet et dont les contours sont arrondi/ */
+  
     background-color: #ff00ff;
     transform: translateX(0%);
     color: #fff;
@@ -140,8 +140,8 @@
     transform: translateY(-30%);
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
   }
 
   .logo32 {

@@ -1,4 +1,4 @@
-/* Style pour le corps de la page */
+
 body {
   font-family: "TT Interphrases", sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -6,25 +6,25 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  color: #fff; /* Couleur de texte */
-}
-/* Style pour les éléments de code */
-code {
-  font-family: "Lastica", monospace;
-  color: #fff; /* Couleur de texte pour le code */
+  color: #fff;
 }
 
-/* Style pour les titres h1 et h2 */
+code {
+  font-family: "Lastica", monospace;
+  color: #fff;
+}
+
+
 h1,
 h2 {
   font-family: "Lastica", sans-serif;
-  color: #fff; /* Couleur de texte pour les titres */
+  color: #fff;
 }
 
-/* Style pour les paragraphes p */
+
 p {
   font-family: "TT Interphrases", sans-serif;
   font-size: 21px;
   line-height: 1.5;
-  color: #fff; /* Couleur de texte pour les paragraphes */
+  color: #fff;
 }

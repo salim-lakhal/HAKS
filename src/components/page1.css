@@ -1,13 +1,13 @@
 .page1-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre et que les éléments ne débordent pas */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 0px;
 }
 
-/* Caractéristiques du logo */
+
 .logo {
   width: 399px;
   height: 500px;
@@ -30,23 +30,23 @@
 
 .container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   max-height: 100%;
 }
 
 @media (min-width: 1325px) {
   .page1-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    min-height: 100vh;
   }
 
-  /* Caractéristiques du logo */
+  
   .logo {
     width: 450px;
     height: 550px;
@@ -70,7 +70,7 @@
   .container {
     display: flex;
     flex-direction: row;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
   }
 }

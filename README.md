@@ -1,40 +1,37 @@
-# HAKS 2024 - Hackathon Web3 & Blockchain
+# HAKS 2024
 
-A 100% student-organized hackathon focused on Web3 & Blockchain, held April 26-28, 2024 at Telecom Paris, Palaiseau.
+[![CI](https://github.com/salim-lakhal/HAKS/actions/workflows/ci.yml/badge.svg)](https://github.com/salim-lakhal/HAKS/actions/workflows/ci.yml)
 
-I built this website from scratch with React as the official showcase for the event. It was my very first web development project.
+Website for a Web3 & Blockchain hackathon I organized with a team of 9 engineering students from Telecom SudParis. Two-day event held at Telecom Paris (April 2024), with up to 40,000 EUR in prizes, in partnership with Tezos and Kryptosphere.
+
+My first web development project — built from scratch with React.
 
 ## Demo
 
 ### Desktop
+
 [![Desktop demo](assets/demo-desktop.gif)](https://github.com/salim-lakhal/HAKS/releases/download/v1.0/haks-demo-desktop.mp4)
-> *Click the GIF to watch the full quality video*
 
 ### Mobile
+
 [![Mobile demo](assets/demo-mobile.gif)](https://github.com/salim-lakhal/HAKS/releases/download/v1.0/haks-demo-mobile.mp4)
-> *Click the GIF to watch the full quality video*
 
-## About
-
-HAKS was a 2-day Web3 & Blockchain hackathon organized by 9 engineering students from Telecom SudParis, in partnership with **Tezos** (a pillar of the French blockchain ecosystem) and with the support of **Kryptosphere** (France's largest student tech community).
-
-- Prize pool up to **40,000 EUR**
-- Hosted at **Telecom Paris**, 19 Pl. Marguerite Perey, 91120 Palaiseau
-- Teams competed to build innovative blockchain solutions addressing societal challenges
-- Judged on technical execution, marketing pitch, approach, and innovation
+> Click the previews to watch full quality videos.
 
 ## Tech Stack
 
-- **React 18** (Create React App)
-- **Bootstrap 5** + custom CSS
-- **React Router** for navigation
-- **Font Awesome** icons
-- Fully responsive (desktop + mobile with hamburger menu)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?logo=bootstrap&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-Responsive-1572B6?logo=css3&logoColor=white)
 
 ## Run Locally
 
 ```bash
 npm install
-npm start     # localhost:3000
-npm run build # production build
+npm start
 ```
+
+## License
+
+[MIT](LICENSE)

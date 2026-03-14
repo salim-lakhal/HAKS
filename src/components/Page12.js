@@ -1,7 +1,7 @@
 import React from 'react';
 import './page12.css';
 import '../background/back.css'
-import Footer from './Footer/Footer'; // Importez le composant Footer
+import Footer from './Footer/Footer';
 
 
 function Page12() {

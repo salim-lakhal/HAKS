@@ -1,13 +1,12 @@
 import React from 'react';
-import { useEffect } from 'react'; // Import correctement useEffect
+import { useEffect } from 'react';
 import './page4.css';
 import '../background/back.css';
 import './animation/animation.css';
 
 function Page4() {
   useEffect(() => {
-    // Votre logique useEffect ici
-  }, []); // Assurez-vous de déclarer les dépendances correctement
+  }, []);
 
   return (
     <section id="Page4">

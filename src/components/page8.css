@@ -1,14 +1,14 @@
 .page8-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 0px;
 }
 
 .tete2 {
-  /*Titre en haut de la page et centrer et en blanc / */
+
   font-family: "Lastica", sans-serif;
   margin-top: 10%;
   margin-bottom: 10%;
@@ -19,8 +19,8 @@
 .container8 {
   display: flex;
   flex-direction: column;
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 .para {
@@ -35,15 +35,15 @@
 @media (min-width: 1325px) {
   .page8-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    height: 100vh;
   }
 
   .tete2 {
-    /*Titre en haut de la page et centrer et en blanc / */
+  
     font-family: "Lastica", sans-serif;
     transform: translateY(-40%);
     color: #fff;
@@ -54,8 +54,8 @@
   .container8 {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
   }
   .para {

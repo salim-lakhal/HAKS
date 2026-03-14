@@ -1,15 +1,14 @@
 .page4-container {
   display: flex;
-  flex-direction: column; /* Pour empiler les éléments verticalement */
-  justify-content: center; /* Pour centrer verticalement */
-  align-items: center; /* Pour centrer horizontalement */
-  min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
   padding: 0px;
 }
 
 .en-tete {
-  /*Titre en haut de la page et centrer et en blanc / */
-  /*couleur de texte blanc */
+
   color: #fff;
   font-family: "Lastica", sans-serif;
   text-align: center;
@@ -87,10 +86,10 @@
 @media (min-width: 1325px) {
   .page4-container {
     display: flex;
-    flex-direction: column; /* Pour empiler les éléments verticalement */
-    justify-content: center; /* Pour centrer verticalement */
-    align-items: center; /* Pour centrer horizontalement */
-    min-height: 100vh; /* Pour que le conteneur prenne toute la hauteur de la fenêtre */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
     padding: 0px;
   }
 
