@@ -7,10 +7,12 @@ I built this website from scratch with React as the official showcase for the ev
 ## Demo
 
 ### Desktop
-![Desktop demo](assets/demo-desktop.gif)
+[![Desktop demo](assets/demo-desktop.gif)](https://github.com/salim-lakhal/HAKS/releases/download/v1.0/haks-demo-desktop.mp4)
+> *Click the GIF to watch the full quality video*
 
 ### Mobile
-![Mobile demo](assets/demo-mobile.gif)
+[![Mobile demo](assets/demo-mobile.gif)](https://github.com/salim-lakhal/HAKS/releases/download/v1.0/haks-demo-mobile.mp4)
+> *Click the GIF to watch the full quality video*
 
 ## About
 
