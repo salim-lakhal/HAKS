@@ -1,27 +1,57 @@
-Haks.fr - Hackathon Showcase
+# HAKS 2024 - Hackathon Web3 & Blockchain
 
-Welcome to the official repository for Haks.fr, your go-to platform for exploring and understanding our exciting hackathon!
+A 100% student-organized hackathon focused on Web3 & Blockchain, held April 26-28, 2024 at Telecom Paris, Palaiseau.
 
-About Haks.fr
+I built this website from scratch with React as the official showcase for the event. It was my very first web development project.
 
-Haks.fr is a meticulously designed website aimed at presenting our hackathon to both companies and individuals interested in the world of innovation and technology. As the organizer of this hackathon, I led a dedicated team of 9 individuals from my school to make this event a remarkable success.
+## Demo
 
-Features
+<video src="haks-demo.webm" controls width="100%"></video>
 
-Responsive Design: Our website is crafted to provide a seamless experience across various devices, ensuring accessibility for everyone.
+### Screenshots
 
-In-depth Overview: Explore detailed information about the hackathon, including its purpose, goals, and the innovative projects that emerged from it.
+#### Hero
+![Hero section](demo-screenshots/01-hero.png)
 
-Team Collaboration:
+#### Profils (Developers, Managers, Designers)
+![Profils section](demo-screenshots/02-profils.png)
 
-Learn about the fantastic team of 9 individuals who collaborated passionately to organize and execute this hackathon.
+#### Le Challenge
+![Challenge section](demo-screenshots/03-challenge.png)
 
-How to Access
+#### FAQ
+![FAQ section](demo-screenshots/04-faq.png)
 
-Visit Haks.fr to delve into the exciting world of our hackathon.
+#### Footer
+![Footer section](demo-screenshots/05-footer.png)
 
-Development
+#### Mobile
+<p float="left">
+  <img src="demo-screenshots/06-mobile-hero.png" width="300" />
+  <img src="demo-screenshots/07-mobile-menu.png" width="300" />
+</p>
 
-This website was developed entirely from scratch, emphasizing a unique and tailored design to effectively convey the essence of the hackathon. Feel free to explore the codebase and contribute to the ongoing development of this showcase.
+## About
 
-If you have any questions or suggestions, feel free to open an issue or submit a pull request.
+HAKS was a 2-day Web3 & Blockchain hackathon organized by 9 engineering students from Telecom SudParis, in partnership with **Tezos** (a pillar of the French blockchain ecosystem) and with the support of **Kryptosphere** (France's largest student tech community).
+
+- Prize pool up to **40,000 EUR**
+- Hosted at **Telecom Paris**, 19 Pl. Marguerite Perey, 91120 Palaiseau
+- Teams competed to build innovative blockchain solutions addressing societal challenges
+- Judged on technical execution, marketing pitch, approach, and innovation
+
+## Tech Stack
+
+- **React 18** (Create React App)
+- **Bootstrap 5** + custom CSS
+- **React Router** for navigation
+- **Font Awesome** icons
+- Fully responsive (desktop + mobile with hamburger menu)
+
+## Run Locally
+
+```bash
+npm install
+npm start     # localhost:3000
+npm run build # production build
+```
