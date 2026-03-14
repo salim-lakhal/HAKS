@@ -24,7 +24,7 @@ function Page3() {
           <div className="contain3">
           
           <div className="logo32 logo-container">
-            <img src= "HAKS.svg" width="300" height="200" />
+            <img src="HAKS.svg" width="300" height="200" alt="HAKS logo" />
           </div>
           
           <div className="bouton">
@@ -33,7 +33,7 @@ function Page3() {
             </a>
         </div>
         <div className="logo31 logo-container">
-            <img src= "HAKS.svg" width="300" height="200" />
+            <img src="HAKS.svg" width="300" height="200" alt="HAKS logo" />
           </div>
 
 

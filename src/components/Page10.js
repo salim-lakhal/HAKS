@@ -12,7 +12,7 @@ function Page10() {
         </div>
       
         <div className="coming">
-            <img src="coming.png" width="400" height="300" />
+            <img src="coming.png" width="400" height="300" alt="Coming soon" />
          </div>
 
         </div>
