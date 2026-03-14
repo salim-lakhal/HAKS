@@ -6,30 +6,11 @@ I built this website from scratch with React as the official showcase for the ev
 
 ## Demo
 
-<video src="haks-demo.webm" controls width="100%"></video>
+### Desktop
+<video src="haks-demo-desktop.webm" controls width="100%"></video>
 
-### Screenshots
-
-#### Hero
-![Hero section](demo-screenshots/01-hero.png)
-
-#### Profils (Developers, Managers, Designers)
-![Profils section](demo-screenshots/02-profils.png)
-
-#### Le Challenge
-![Challenge section](demo-screenshots/03-challenge.png)
-
-#### FAQ
-![FAQ section](demo-screenshots/04-faq.png)
-
-#### Footer
-![Footer section](demo-screenshots/05-footer.png)
-
-#### Mobile
-<p float="left">
-  <img src="demo-screenshots/06-mobile-hero.png" width="300" />
-  <img src="demo-screenshots/07-mobile-menu.png" width="300" />
-</p>
+### Mobile
+<video src="haks-demo-mobile.webm" controls width="50%"></video>
 
 ## About
 
