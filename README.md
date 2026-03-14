@@ -7,10 +7,10 @@ I built this website from scratch with React as the official showcase for the ev
 ## Demo
 
 ### Desktop
-<video src="haks-demo-desktop.webm" controls width="100%"></video>
+![Desktop demo](assets/demo-desktop.gif)
 
 ### Mobile
-<video src="haks-demo-mobile.webm" controls width="50%"></video>
+![Mobile demo](assets/demo-mobile.gif)
 
 ## About
 
