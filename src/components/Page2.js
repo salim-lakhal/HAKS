@@ -9,7 +9,7 @@ function Page2() {
 
     <div className='container12'>
     <div className="logo12">
-            <img src= "image1.png" width="475" height="500" />
+            <img src="image1.png" width="475" height="500" alt="HAKS event" />
         </div>
 
     <div className='container1'>
@@ -22,7 +22,7 @@ function Page2() {
       </div>
 
       <div className="logo1">
-        <img src= "krypto.png" width="200" height="200" />
+        <img src="krypto.png" width="200" height="200" alt="Kryptosphere" />
       </div>
       </div>
       </div>

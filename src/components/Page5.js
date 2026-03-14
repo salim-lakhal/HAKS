@@ -13,7 +13,7 @@ function Page5() {
             </div>
 
             <div className="image85" >
-                <img src="imagegroupe.png" />
+                <img src="imagegroupe.png" alt="Team" />
             </div>
         </div>
         </div>

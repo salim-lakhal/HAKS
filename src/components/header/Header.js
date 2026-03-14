@@ -4,8 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Header() {
   const [menuVisible, setMenuVisible] = useState(window.innerWidth < 1325);
-  const [isHamburgerOpen, setHamburgerOpen] = useState(false);
-
   useEffect(() => {
     function handleResize() {
       setMenuVisible(window.innerWidth < 1325);
@@ -18,10 +16,6 @@ function Header() {
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-  const handleHamburgerClick = () => {
-    setHamburgerOpen(!isHamburgerOpen);
-  };
-
   return (
     <div>
       {menuVisible ? (

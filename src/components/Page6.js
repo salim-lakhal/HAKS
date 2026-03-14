@@ -22,7 +22,7 @@ Vous devrez, par équipe, réussir à proposer un projet à la fois réussi d'un
         </div>
      
     <div className="animation1" >
-        <img src="logo.png"  />
+        <img src="logo.png" alt="HAKS logo" />
         </div> 
     </div>
     </div>

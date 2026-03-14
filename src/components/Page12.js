@@ -13,12 +13,12 @@ function Page12() {
         <div className="en-tete1">
             <h1>Contact Information</h1>
         </div>
-        <div class='logo-container1'>
+        <div className='logo-container1'>
         <div className="logo4">
-            <img src= "remove.png" width="550" height="500" />
+            <img src="remove.png" width="550" height="500" alt="HAKS" />
         </div>
         <div className="logo5">
-            <img src= "animation.png" width="550" height="500" />
+            <img src="animation.png" width="550" height="500" alt="HAKS animation" />
         </div>
         </div>
         </div>
