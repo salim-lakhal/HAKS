@@ -27,3 +27,5 @@ yarn-error.log*
 
 # temp
 /demo-video
+
+.claude
